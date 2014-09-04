@@ -1,0 +1,21 @@
+{
+    "require": {
+        "illuminate/database": "4.1.*",
+        "silex/silex": "2.0.*@dev",
+        "pimple/pimple": "3.0.*@dev",
+        "symfony/event-dispatcher": "2.5.*@dev",
+        "symfony/http-foundation": "2.5.*@dev",
+        "symfony/http-kernel": "2.5.*@dev",
+        "symfony/routing": "2.5.*@dev",
+        "twig/twig": "1.*",
+        "symfony/twig-bridge": "2.6.*@dev"
+        
+    },
+    "autoload": {
+		"classmap": [
+			"src/app/models",
+            "src/app/controllers",
+            "src/app/libraries"
+		]
+	}
+}
