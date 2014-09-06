@@ -1,4 +1,13 @@
 {
+    "name": "tbitowner/larex",
+    "description": "The Silex framework combined with Laravel's database libraries",
+    "keywords": [
+        "laravel",
+        "silex",
+        "database",
+        "framework",
+        "php"
+    ],
     "require": {
         "illuminate/database": "4.1.*",
         "silex/silex": "2.0.*@dev",
@@ -13,7 +22,7 @@
     },
     "autoload": {
 		"classmap": [
-			"src/app/models",
+		    "src/app/models",
             "src/app/controllers",
             "src/app/libraries"
 		]
